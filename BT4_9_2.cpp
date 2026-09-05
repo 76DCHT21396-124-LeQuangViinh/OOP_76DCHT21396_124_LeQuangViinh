@@ -44,13 +44,11 @@ class SinhVien{
 		
 		bool kiemtra(){
 			for(int i=0; i<4; i++){
-				if(diem[i]>=5){
-					return true;
-				}
-				else{
+				if(diem[i]<5){
 					return false;
 				}
 			}
+			return true;
 		}
 
 };
@@ -101,7 +99,7 @@ int main(){
 	
 	int count =0;
 	for(int i=0; i<dssv.size(); i++){
-		if(dssv[i].diemtb()<7 && dssv[i].kiemtra() ==1){
+		if(dssv[i].diemtb()<7 && dssv[i].kiemtra() == true){
 			dssv[i].xuat();
 			count ++;
 		}
