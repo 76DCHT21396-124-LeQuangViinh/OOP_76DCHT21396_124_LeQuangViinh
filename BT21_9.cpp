@@ -115,5 +115,5 @@ int main(){
         dsps[i].xuat();
         cout << "   ";
     }
-    cout << endl;
+	return 0;
 }
