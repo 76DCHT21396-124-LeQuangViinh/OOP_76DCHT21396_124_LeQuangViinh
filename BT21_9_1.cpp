@@ -84,7 +84,7 @@ int main(){
 		cout << "Nhap so luong phan so(1 - 10): ";
 		cin >> n;
 		if(n<1 || n>10){
-			cout << "So luong phan so khong phu hop. vui long nhap lai"<< endl;
+			cout << "So luong phan tu khong phu hop. vui long nhap lai"<< endl;
 		}
 	}
 	while(n<1 || n>10);
